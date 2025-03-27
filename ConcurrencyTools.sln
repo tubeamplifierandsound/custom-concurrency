@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35521.163 d17.12
+VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomConcurrency", "CustomConcurrency\CustomConcurrency.csproj", "{C4473C98-B9D0-4CAB-9BE0-FEA84683D308}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoApp", "DemoApp\DemoApp.csproj", "{9377089D-0588-4550-84A3-3B2774CC4EDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogginingServices", "LogginingServices\LogginingServices.csproj", "{C6B0E74A-BD28-4A00-B248-ED46F9BED365}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{C4473C98-B9D0-4CAB-9BE0-FEA84683D308}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4473C98-B9D0-4CAB-9BE0-FEA84683D308}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4473C98-B9D0-4CAB-9BE0-FEA84683D308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9377089D-0588-4550-84A3-3B2774CC4EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9377089D-0588-4550-84A3-3B2774CC4EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9377089D-0588-4550-84A3-3B2774CC4EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9377089D-0588-4550-84A3-3B2774CC4EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6B0E74A-BD28-4A00-B248-ED46F9BED365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B0E74A-BD28-4A00-B248-ED46F9BED365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B0E74A-BD28-4A00-B248-ED46F9BED365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B0E74A-BD28-4A00-B248-ED46F9BED365}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

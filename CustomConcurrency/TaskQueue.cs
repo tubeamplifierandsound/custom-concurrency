@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BooksManager.Lib.Concurrent
+namespace CustomConcurrency.TaskQueue
 {
     public class TaskQueue
     {//mb add start method
