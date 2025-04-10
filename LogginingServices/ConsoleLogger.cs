@@ -3,10 +3,10 @@
     public class ConsoleLogger : ILogger
     {
         public void LogInfo(string infoMess) =>
-            Console.WriteLine($"Log (Info): {infoMess}");
+            Console.WriteLine($"{DateTime.Now.ToString("HH:mm:ss.fff")} Log (Info): {infoMess}");
         public void LogWarning(string warningMess) =>
-            Console.WriteLine($"Log (Warning): {warningMess}");
+            Console.WriteLine($"{DateTime.Now.ToString("HH:mm:ss.fff")} Log (Warning): {warningMess}");
         public void LogError(string errorMess, Exception? ex) =>
-            Console.WriteLine($"Log (Error): {errorMess}; {ex?.Message}");
+            Console.WriteLine($"{DateTime.Now.ToString("HH:mm:ss.fff")} Log (Error): {errorMess}; {ex?.Message}");
     }
 }
